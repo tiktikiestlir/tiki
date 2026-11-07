@@ -1,0 +1,126 @@
+{
+  "brand": "Clay Pop",
+  "brand_version": "2.1",
+  "file": "claypop_mito_20261110_farao-bebes-cabras_v1.mp4",
+  "cover": "claypop_mito_20261110_farao-bebes-cabras_v1_capa.jpg",
+  "series": "Mito ou Verdade",
+  "subformat": "Histórias Absurdas (estilo de referência: narrativa contínua, legenda de 1 palavra, etiquetas com bolinha, cenário que interage)",
+  "slug": "farao-bebes-cabras",
+  "version": 1,
+  "title": "O faraó, os bebês e as cabras",
+  "verdict": "Relato antigo (Heródoto) — pode ser lenda",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_s": 19.6
+  },
+  "hero_object": "Faraó de massinha com nemes listrado, bebês, cabras, pão com olhos",
+  "scene_interactions": [
+    "cabra lambe o bebê",
+    "placa SHHH! brota do chão e leva cabeçada da cabra",
+    "sol dá 2 voltas no céu no salto de 2 anos",
+    "cabras e pastor viram a cabeça quando a criança fala; pastor derruba o cajado",
+    "pão gigante cai do céu, quica e a cabra mordisca",
+    "pódio surge com o frígio de barrete acenando; nemes do faraó escorrega de tristeza"
+  ],
+  "structure": {
+    "hook": {
+      "t": 0.0,
+      "text": "Um faraó mandou criar dois bebês no meio das cabras.",
+      "on_screen_by_s": 0.0
+    },
+    "re_hook": {
+      "t": 7.62,
+      "pct": 38.9,
+      "text": "Dois anos depois, um deles falou."
+    },
+    "guess_card": {
+      "t_in": 10.3,
+      "t_out": 11.7,
+      "duration_s": 1.4,
+      "text": "Chuta: qual foi a palavra? MÉÉ / MAMÃE / PÃO"
+    },
+    "answer": {
+      "t": 11.76,
+      "pct": 60.0,
+      "text": "Bekos! Que é pão... em frígio."
+    },
+    "loop": {
+      "t": 17.45,
+      "text": "CTA 'Sabia? comenta BEKOS / Não sabia? comenta MÉÉ' e câmera volta ao plano de abertura"
+    }
+  },
+  "narration": {
+    "engine": "Edge TTS",
+    "voice": "pt-BR-ThalitaMultilingualNeural",
+    "rate": "+10%",
+    "lines": [
+      {
+        "t": 0.05,
+        "text": "Um faraó mandou criar dois bebês no meio das cabras."
+      },
+      {
+        "t": 3.12,
+        "text": "Pra descobrir a primeira língua do mundo."
+      },
+      {
+        "t": 5.4,
+        "text": "Regra: ninguém fala perto deles."
+      },
+      {
+        "t": 7.62,
+        "text": "Dois anos depois, um deles falou."
+      },
+      {
+        "t": 9.95,
+        "text": "Chuta: qual palavra?"
+      },
+      {
+        "t": 11.76,
+        "text": "Bécos! Que é pão... em frígio."
+      },
+      {
+        "t": 14.1,
+        "text": "E concluiu: os frígios eram mais antigos que o Egito."
+      },
+      {
+        "t": 17.45,
+        "text": "Sabia? Comenta bécos."
+      }
+    ]
+  },
+  "music": {
+    "style": "marimba sintetizada em escala frígia dominante + tambor de mão",
+    "bpm": 110
+  },
+  "claims": [
+    {
+      "claim": "Segundo Heródoto, o faraó Psamético I entregou dois recém-nascidos a um pastor para serem criados entre cabras, sem ninguém falar perto deles; após dois anos disseram 'bekos', palavra frígia para pão, e o faraó concluiu que os frígios eram mais antigos que os egípcios.",
+      "source": "Heródoto, Histórias, Livro II, 2",
+      "note": "Relato antigo, sem confirmação histórica independente; apresentado como 'segundo Heródoto · pode ser lenda'."
+    }
+  ],
+  "scale_warning": "relato antigo · pode ser lenda",
+  "palette_used": [
+    "#FFF1E0",
+    "#FF6F59",
+    "#4D8DFF",
+    "#FFC93C",
+    "#7ED7B5",
+    "#2E2141"
+  ],
+  "fonts": [
+    "Fredoka 700",
+    "Fredoka 500",
+    "Nunito 800"
+  ],
+  "ai_generated": true,
+  "schedule": {
+    "network": "instagram",
+    "type": "REEL",
+    "datetime": "2026-11-10T10:00:00",
+    "timezone": "America/Sao_Paulo"
+  }
+}
