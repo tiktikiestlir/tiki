@@ -1,0 +1,120 @@
+{
+  "brand": "Clay Pop",
+  "brand_version": "2.1",
+  "file": "claypop_mito_20261108_raio-mesmo-lugar_v1.mp4",
+  "cover": "claypop_mito_20261108_raio-mesmo-lugar_v1_capa.jpg",
+  "series": "Mito ou Verdade",
+  "slug": "raio-mesmo-lugar",
+  "version": 1,
+  "title": "Um raio nunca cai duas vezes no mesmo lugar?",
+  "verdict": "MITO",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_s": 20.0
+  },
+  "hero_object": "Arranha-céu de massinha azul chiclete com olhos (e nuvem de tempestade ameixa com olhos)",
+  "signature_cut": "não se aplica — Mito ou Verdade usa carimbo MITO! em vez do corte ao meio",
+  "structure": {
+    "hook": {
+      "t": 0.0,
+      "text": "Um raio nunca cai duas vezes no mesmo lugar?",
+      "on_screen_by_s": 0.0
+    },
+    "re_hook": {
+      "t": 7.0,
+      "pct": 35.0,
+      "text": "Mas olha esse prédio aqui."
+    },
+    "guess_card": {
+      "t_in": 10.45,
+      "t_out": 11.9,
+      "duration_s": 1.45,
+      "text": "Chuta: mito ou verdade?"
+    },
+    "answer": {
+      "t": 12.0,
+      "pct": 60.0,
+      "text": "Mito! O Empire State leva mais de vinte raios por ano."
+    },
+    "loop": {
+      "t": 17.4,
+      "text": "Então, se disserem que um raio nunca cai... → volta pro hook"
+    }
+  },
+  "narration": {
+    "engine": "Edge TTS",
+    "voice": "pt-BR-ThalitaMultilingualNeural",
+    "rate": "+10%",
+    "lines": [
+      {
+        "t": 0.05,
+        "text": "Um raio nunca cai duas vezes no mesmo lugar?"
+      },
+      {
+        "t": 3.55,
+        "text": "Todo mundo já ouviu esse ditado."
+      },
+      {
+        "t": 7.0,
+        "text": "Mas olha esse prédio aqui."
+      },
+      {
+        "t": 9.9,
+        "text": "Chuta: mito ou verdade?"
+      },
+      {
+        "t": 12.0,
+        "text": "Mito! O Empire State leva mais de vinte raios por ano."
+      },
+      {
+        "t": 15.6,
+        "text": "Raio adora o ponto mais alto."
+      },
+      {
+        "t": 17.4,
+        "text": "Então, se disserem que um raio nunca cai..."
+      }
+    ]
+  },
+  "music": {
+    "style": "marimba sintetizada",
+    "bpm": 110
+  },
+  "claims": [
+    {
+      "claim": "Raio cai repetidamente no mesmo lugar, principalmente em objetos altos, pontudos e isolados.",
+      "source": "NOAA / National Weather Service — Lightning Myths",
+      "url": "https://www.weather.gov/safety/lightning-myths"
+    },
+    {
+      "claim": "O Empire State Building é atingido em média ~23 vezes por ano (narração: 'mais de vinte').",
+      "source": "NOAA / National Weather Service — Lightning Myths",
+      "url": "https://www.weather.gov/safety/lightning-myths"
+    }
+  ],
+  "scale_warning": "fora de escala · simplificado (cidade e nuvem estilizadas)",
+  "palette_used": [
+    "#FFF1E0",
+    "#FF6F59",
+    "#4D8DFF",
+    "#FFC93C",
+    "#7ED7B5",
+    "#2E2141"
+  ],
+  "fonts": [
+    "Fredoka 700",
+    "Fredoka 500",
+    "Nunito 800"
+  ],
+  "ai_generated": true,
+  "render": "Three.js r160 no Chromium headless (SwiftShader), MeshPhysical massinha + bump de digitais + sombras",
+  "schedule": {
+    "network": "instagram",
+    "type": "REEL",
+    "datetime": "2026-11-08T07:00:00",
+    "timezone": "America/Sao_Paulo"
+  }
+}
