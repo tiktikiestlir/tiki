@@ -1,0 +1,134 @@
+{
+  "brand": "Clay Pop",
+  "brand_version": "2.1",
+  "file": "claypop_pordentro_20261109_polvo-tres-coracoes_v1.mp4",
+  "cover": "claypop_pordentro_20261109_polvo-tres-coracoes_v1_capa.jpg",
+  "series": "Por Dentro",
+  "slug": "polvo-tres-coracoes",
+  "version": 1,
+  "title": "Quantos corações tem um polvo?",
+  "answer": "3 corações (2 branquiais + 1 sistêmico) e sangue azul",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_s": 19.2
+  },
+  "hero_object": "Polvo de massinha coral com olhos; corações com olhos por dentro",
+  "signature_cut": {
+    "t": 8.3,
+    "desc": "fio corta o polvo ao meio e as metades abrem como livro"
+  },
+  "structure": {
+    "hook": {
+      "t": 0.0,
+      "text": "Quantos corações tem um polvo?",
+      "on_screen_by_s": 0.0
+    },
+    "re_hook": {
+      "t": 6.72,
+      "pct": 35.0,
+      "text": "Então bora abrir ele ao meio."
+    },
+    "guess_card": {
+      "t_in": 10.1,
+      "t_out": 11.5,
+      "duration_s": 1.4,
+      "text": "Chuta: quantos corações? 1 / 2 / 3"
+    },
+    "answer": {
+      "t": 11.52,
+      "pct": 60.0,
+      "text": "Três! Dois mandam sangue pras guelras, e um pro corpo todo."
+    },
+    "loop": {
+      "t": 17.55,
+      "text": "metades se fecham, polvo dá um jato e volta ao close do início"
+    }
+  },
+  "narration": {
+    "engine": "Edge TTS",
+    "voice": "pt-BR-ThalitaMultilingualNeural",
+    "rate": "+10%",
+    "lines": [
+      {
+        "t": 0.05,
+        "text": "Quantos corações tem um polvo?"
+      },
+      {
+        "t": 2.5,
+        "text": "A gente tem um só."
+      },
+      {
+        "t": 5.0,
+        "text": "E o polvo?"
+      },
+      {
+        "t": 6.72,
+        "text": "Então bora abrir ele ao meio."
+      },
+      {
+        "t": 10.1,
+        "text": "Chuta: quantos?"
+      },
+      {
+        "t": 11.52,
+        "text": "Três! Dois mandam sangue pras guelras, e um pro corpo todo."
+      },
+      {
+        "t": 15.21,
+        "text": "E o sangue dele é azul!"
+      },
+      {
+        "t": 16.67,
+        "text": "E quando ele nada, o do corpo para de bater."
+      }
+    ]
+  },
+  "music": {
+    "style": "marimba sintetizada",
+    "bpm": 110
+  },
+  "claims": [
+    {
+      "claim": "Polvos têm três corações: dois branquiais (bombeiam para as guelras) e um sistêmico (para o corpo).",
+      "source": "NOAA Ocean Service — What is an octopus? / Smithsonian Ocean — Octopuses and Squids",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/octopus.html",
+        "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+      ]
+    },
+    {
+      "claim": "O sangue do polvo é azul por causa da hemocianina, proteína à base de cobre.",
+      "source": "Smithsonian Ocean — Octopuses and Squids",
+      "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+    },
+    {
+      "claim": "O coração sistêmico para de bater quando o polvo nada.",
+      "source": "Smithsonian Ocean — Octopuses and Squids",
+      "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+    }
+  ],
+  "scale_warning": "corte simplificado · fora de escala (anatomia estilizada)",
+  "palette_used": [
+    "#FFF1E0",
+    "#FF6F59",
+    "#4D8DFF",
+    "#FFC93C",
+    "#7ED7B5",
+    "#2E2141"
+  ],
+  "fonts": [
+    "Fredoka 700",
+    "Fredoka 500",
+    "Nunito 800"
+  ],
+  "ai_generated": true,
+  "schedule": {
+    "network": "instagram",
+    "type": "REEL",
+    "datetime": "2026-11-09T07:00:00",
+    "timezone": "America/Sao_Paulo"
+  }
+}
